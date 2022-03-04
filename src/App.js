@@ -9,7 +9,14 @@ export default function App() {
         <Dictionary />
       </main>
       <footer className="App-footer">
-        <small>Code by Amanda Choi</small>
+        Coded by {""}
+        <a
+          href="https://github.com/Amanda-Choi/Simple-Dictionary-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Amanda Choi
+        </a>
       </footer>
     </div>
   );
