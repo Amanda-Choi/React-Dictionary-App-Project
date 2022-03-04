@@ -6,7 +6,6 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
   function handleResponse(response) {
-    console.log(response.data[0]);
     console.log(response.data[0].meaning[0].definition[0]);
   }
 
@@ -27,6 +26,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" onChange={handleKeywordChange} />
       </form>
+      <results />
     </div>
   );
 }
