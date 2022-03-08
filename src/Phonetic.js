@@ -1,14 +1,24 @@
-import React from "react";
+import { FaVolumeUp } from "react-icons/fa";
+
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  console.log(props.phonetic);
-  return (
-    <div className="Phonetic">
-      <a href={props.phonetic.audio} target="_blank">
-        Listen
-      </a>
-      <br />
-      {props.phonetic.text}
-    </div>
-  );
+  if (props.phonetic.audio) {
+    return (
+      <div className="Phonetic">
+        <span className="symbol">{props.phonetic.text}</span>
+        <br />
+        <a
+          href={props.phonetic.audio}
+          target="_blank"
+          rel="noreferrer"
+          className="speaker"
+        >
+          <FaVolumeUp />
+        </a>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }

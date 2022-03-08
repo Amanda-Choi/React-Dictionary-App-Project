@@ -1,0 +1,18 @@
+.Phonetic {
+  height: 15px 0;
+}
+
+.Phonetic a {
+  color: gray;
+  font-style: normal;
+  font-size: 22px;
+  padding: 16px;
+}
+
+.Phonetic a:hover {
+  color: #005689;
+}
+
+.Phonetic .symbol {
+  font-size: 16px;
+}

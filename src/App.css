@@ -1,4 +1,18 @@
+body {
+  background: #f9f8fe;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: pink;
+}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
 }
