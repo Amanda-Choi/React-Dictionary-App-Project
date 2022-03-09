@@ -1,5 +1,5 @@
 .Dictionary section {
-  background: #aedadd;
+  background: #d6dfee;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
@@ -12,4 +12,5 @@
   padding: 6px 10px;
   color: #333;
   border: 1px solid #ddd;
+  font-style: italic;
 }
