@@ -1,12 +1,15 @@
 body {
-  background: #f9f8fe;
+  background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
   color: pink;
 }
-
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-footer {
   text-align: center;
   margin: 30px 0;
