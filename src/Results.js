@@ -6,13 +6,13 @@ import "./Results.css";
 export default function Results(props) {
   if (props.results) {
     return (
-      <div className="Results">
+      <div>
         <section>
           <h2>{props.results.word}</h2>
           <div className="row">
             {props.results.phonetics.map(function (phonetic, index) {
               return (
-                <div className="col-1" key={index}>
+                <div key={index}>
                   <Phonetic phonetic={phonetic} />
                 </div>
               );

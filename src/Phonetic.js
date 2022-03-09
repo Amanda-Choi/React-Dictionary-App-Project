@@ -1,13 +1,10 @@
 import { FaVolumeUp } from "react-icons/fa";
-
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetic">
-        <span className="symbol">{props.phonetic.text}</span>
-        <br />
         <a
           href={props.phonetic.audio}
           target="_blank"
@@ -16,6 +13,7 @@ export default function Phonetic(props) {
         >
           <FaVolumeUp />
         </a>
+        <span className="symbol">{props.phonetic.text}</span>
       </div>
     );
   } else {
