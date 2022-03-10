@@ -1,6 +1,13 @@
+.Dictionary {
+  margin: 0 auto;
+  border: 1px solid #9ea1b1;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
 .Dictionary section {
-  background: #d8e2fd;
-  padding: 10px 30px;
+  background: #d5e5fd;
+  padding: 20px 27px;
   margin: 20px 0;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
