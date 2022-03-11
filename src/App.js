@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>ENGLISH DICTIONARY</h1>
+          <h1>English Dictionary</h1>
         </header>
 
         <main>
@@ -14,7 +14,7 @@ export default function App() {
         </main>
 
         <footer className="App-footer">
-          Coded by {""}
+          Open sourced on Github by {""}
           <a
             href="https://github.com/Amanda-Choi/Simple-Dictionary-App"
             target="_blank"

@@ -3,9 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: pink;
-}
 .App {
   max-width: 900px;
   margin: 0 auto;
@@ -17,7 +14,7 @@ a {
 }
 
 h1 {
+  font-family: Playfair Display, Inknut Antiqua, sans-serif, Helvetica;
   text-align: center;
   margin: 20px;
-  font-size: 35px;
 }
