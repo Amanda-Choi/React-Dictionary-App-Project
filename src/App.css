@@ -7,10 +7,12 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+
 .App-footer {
   text-align: center;
   margin: 30px 0;
 }
+
 h1 {
   font-family: Playfair Display, Inknut Antiqua, sans-serif, Helvetica;
   text-align: center;
