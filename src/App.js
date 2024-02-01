@@ -10,7 +10,7 @@ export default function App() {
         </header>
 
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="forest" />
         </main>
 
         <footer className="App-footer">
